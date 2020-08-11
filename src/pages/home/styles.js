@@ -10,6 +10,7 @@ export const Styles = StyleSheet.create({
         paddingStart: 10,
         paddingBottom: 10,
         fontSize: 16,
+        fontWeight: 'bold',
     },
     List: {
         flex: 1,
