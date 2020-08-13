@@ -6,6 +6,8 @@ export class Denuncias {
 
     static async getAllDenuncias() {
         try {
+            //    Está buscando todos os dados para testes, mas a ideia seria pegar de apenas um usuario
+            // usando este endereço: 'http://177.19.131.123:8000/api/ocorrencias/alvesv79@gmail.com'
             const response = await axios.get('http://177.19.131.123:8000/api/ocorrencias');
             return response.data;
         } catch (error) {
