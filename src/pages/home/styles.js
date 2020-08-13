@@ -12,8 +12,12 @@ export const Styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
     },
+    Loading: {
+        marginTop: 10,
+    },
+    ListItem: {
+    },
     List: {
-        flex: 1,
     },
     Fab: {
         position: 'absolute',

@@ -19,16 +19,23 @@ export const Styles = StyleSheet.create({
         marginBottom: 6,
         color: 'grey'
     },
+    Warning: {
+        marginBottom: 5,
+        color: 'red',
+        alignSelf: 'center',
+    },
+    InputEmail: {
+        marginBottom: 20,
+    },
+    InfoPhoto: {
+        alignSelf: 'center',
+        fontSize: 15,
+        fontWeight: 'bold',
+    },
     Image: {
         marginTop: 10,
         width: '60%',
         alignSelf: 'center',
-    },
-    InfoPhoto: {
-        marginTop: 20,
-        alignSelf: 'center',
-        fontSize: 15,
-        fontWeight: 'bold',
     },
     SaveButton: {
         marginTop: 40,
